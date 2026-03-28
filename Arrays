@@ -1,3 +1,8 @@
+#Brute Force:
+For the array
+[2, 3, 1, 2, 4] and target 7, we check every possible subarray and calculate their sum to find the minimum subarray whose sum is greater than or equal to 7. We iterate over each subarray of all possible lengths:
+
+
 def small_sub_array(array,target):
     arr_length = len(array)
     min_length = float('inf')
